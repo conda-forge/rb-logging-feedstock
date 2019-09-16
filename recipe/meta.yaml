@@ -33,7 +33,7 @@ about:
   home: https://rubygems.org/gems/{{ name }}
   license: MIT
   license_family: MIT
-  license_file: {{ name }}-{{ version }}/LICENSE
+  license_file: LICENSE
   summary: |
     A a flexible logging library for use in Ruby programs based on the design of
     Java's log4j library. It features a hierarchical logging system, custom level
