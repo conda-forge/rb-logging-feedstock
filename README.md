@@ -5,14 +5,16 @@ Home: https://rubygems.org/gems/logging
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rb-logging-feedstock/blob/master/LICENSE.txt)
 
 Summary: A a flexible logging library for use in Ruby programs based on the design of
 Java's log4j library. It features a hierarchical logging system, custom level
 names, multiple output destinations per log event, custom formatting, and more.
 
 
+Development: https://github.com/TwP/logging
 
+Documentation: https://www.rubydoc.info/gems/logging
 
 Current build status
 ====================
