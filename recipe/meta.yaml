@@ -23,7 +23,7 @@ requirements:
   run:
     - {{ pin_compatible('ruby', max_pin='x.x') }}
     - rb-little-plugger >=1.1.4,<2
-    - rb-multi_json >=1.13.1,<1.14
+    - rb-multi_json >1.14
 
 test:
   commands:
