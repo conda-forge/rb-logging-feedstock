@@ -5,14 +5,16 @@ Home: https://rubygems.org/gems/logging
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rb-logging-feedstock/blob/master/LICENSE.txt)
 
 Summary: A a flexible logging library for use in Ruby programs based on the design of
 Java's log4j library. It features a hierarchical logging system, custom level
 names, multiple output destinations per log event, custom formatting, and more.
 
 
+Development: https://github.com/TwP/logging
 
+Documentation: https://www.rubydoc.info/gems/logging
 
 Current build status
 ====================
@@ -41,6 +43,7 @@ Installing `rb-logging` from the `conda-forge` channel can be achieved by adding
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `rb-logging` can be installed with:
@@ -70,7 +73,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
@@ -111,15 +114,14 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
 =====================
 
-* [@benhuff](https://github.com/benhuff/)
-* [@oblute](https://github.com/oblute/)
+* [@mxr-conda](https://github.com/mxr-conda/)
 * [@sodre](https://github.com/sodre/)
 
