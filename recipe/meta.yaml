@@ -1,5 +1,5 @@
 {% set name = "logging" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: c98298313ea08725f822facc59c801bceca876ee34fd57f022e752143b83755e
+  sha256: 02347901efa6bc96d319bd5a83ad194395b900299a35f940080c3dd22f64d4fd
 
 build:
   noarch: generic
